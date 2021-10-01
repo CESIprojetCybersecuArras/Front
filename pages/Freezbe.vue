@@ -20,11 +20,11 @@ import FreezbeCard from '../components/FreezbeCard.vue'
     export default {
   components: { FreezbeCard },
         middleware: ['auth'],
-        // async asyncData({$axios}, callback){
-        //   await $axios.$get('http://localhost:8000/getAllFreezbes').then((res) => {
-        //     callback(null, {ModelesList: res})
-        //   })
-        // },
+        async asyncData({$axios}, callback){
+          await $axios.$get('http://localhost:4000/freezbes').then((res) => {
+            callback(null, {ModelesList: res})
+          })
+        },
         data() {
             return {
                 ModelesList: [],

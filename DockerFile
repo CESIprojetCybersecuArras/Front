@@ -2,6 +2,7 @@ FROM node:14
 WORKDIR /app
 COPY nuxt.config.js .
 COPY package.json .
+COPY /.nuxt .
 RUN npm install
 COPY . .
 EXPOSE 3000

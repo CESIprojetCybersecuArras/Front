@@ -3,7 +3,7 @@
     <label class="block text-2xl text-gray-700 text-sm font-bold mx-14 mt-8">
       Identification
     </label>
-    <form class="bg-white rounded px-8 pt-6 pb-8 mb-4">
+    <form class="bg-white rounded px-8 pt-6 pb-8 mb-4" @submit.prevent="logIn">
       <div class="mb-4">
         <label class="block text-black text-sm font-bold mb-2" for="email">
           Adresse mail
@@ -89,13 +89,16 @@ export default {
     async logIn() {
       try {
         const body = {
-          Email: this.email,
+          email: this.email,
           Password: this.password
         }
-        const request = await this.$axios.$post('http://localhost:8000/login',body)
+        const config = {
+          headers: {'Access-Control-Allow-Origin': '*'}
+        }
+        const request = await this.$axios.$post('http://localhost:4000/login',body, config)
         if(!request.email.includes('@')) {
           return 'Email must contain an @'
-        }
+        } 
         const user = request.email
 
         this.$store.commit('changeEmail', user)
