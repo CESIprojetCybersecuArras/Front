@@ -1,0 +1,58 @@
+[
+  {
+    "name": "AddFreezbe",
+    "path": "/AddFreezbe",
+    "component": "C:\\\\Users\\\\felix\\\\Desktop\\\\projet Cybersécurité\\\\Front\\\\Front\\\\pages\\\\AddFreezbe.vue",
+    "chunkName": "pages/AddFreezbe",
+    "_name": "_b4f6d990"
+  },
+  {
+    "name": "AddIngredient",
+    "path": "/AddIngredient",
+    "component": "C:\\\\Users\\\\felix\\\\Desktop\\\\projet Cybersécurité\\\\Front\\\\Front\\\\pages\\\\AddIngredient.vue",
+    "chunkName": "pages/AddIngredient",
+    "_name": "_172794ba"
+  },
+  {
+    "name": "AddProcede",
+    "path": "/AddProcede",
+    "component": "C:\\\\Users\\\\felix\\\\Desktop\\\\projet Cybersécurité\\\\Front\\\\Front\\\\pages\\\\AddProcede.vue",
+    "chunkName": "pages/AddProcede",
+    "_name": "_1de45ff7"
+  },
+  {
+    "name": "Freezbe",
+    "path": "/Freezbe",
+    "component": "C:\\\\Users\\\\felix\\\\Desktop\\\\projet Cybersécurité\\\\Front\\\\Front\\\\pages\\\\Freezbe.vue",
+    "chunkName": "pages/Freezbe",
+    "_name": "_4bb6ff8e"
+  },
+  {
+    "name": "Home",
+    "path": "/Home",
+    "component": "C:\\\\Users\\\\felix\\\\Desktop\\\\projet Cybersécurité\\\\Front\\\\Front\\\\pages\\\\Home.vue",
+    "chunkName": "pages/Home",
+    "_name": "_1efd2c27"
+  },
+  {
+    "name": "Ingredients",
+    "path": "/Ingredients",
+    "component": "C:\\\\Users\\\\felix\\\\Desktop\\\\projet Cybersécurité\\\\Front\\\\Front\\\\pages\\\\Ingredients.vue",
+    "chunkName": "pages/Ingredients",
+    "_name": "_ab33afac"
+  },
+  {
+    "name": "Procedes",
+    "path": "/Procedes",
+    "component": "C:\\\\Users\\\\felix\\\\Desktop\\\\projet Cybersécurité\\\\Front\\\\Front\\\\pages\\\\Procedes.vue",
+    "chunkName": "pages/Procedes",
+    "_name": "_01b0f32b"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\felix\\\\Desktop\\\\projet Cybersécurité\\\\Front\\\\Front\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_c519074c"
+  }
+]

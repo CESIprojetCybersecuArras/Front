@@ -1,0 +1,38 @@
+{
+  "AddFreezbeForm": {
+    "description": "Auto imported from components/AddFreezbeForm.vue"
+  },
+  "AddIngredientForm": {
+    "description": "Auto imported from components/AddIngredientForm.vue"
+  },
+  "AddProcedeForm": {
+    "description": "Auto imported from components/AddProcedeForm.vue"
+  },
+  "Card": {
+    "description": "Auto imported from components/Card.vue"
+  },
+  "EditFreezbeForm": {
+    "description": "Auto imported from components/EditFreezbeForm.vue"
+  },
+  "EditIngredient": {
+    "description": "Auto imported from components/EditIngredient.vue"
+  },
+  "EditProcede": {
+    "description": "Auto imported from components/EditProcede.vue"
+  },
+  "FreezbeCard": {
+    "description": "Auto imported from components/FreezbeCard.vue"
+  },
+  "IngredientCard": {
+    "description": "Auto imported from components/IngredientCard.vue"
+  },
+  "Login": {
+    "description": "Auto imported from components/Login.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "ProcedeCard": {
+    "description": "Auto imported from components/ProcedeCard.vue"
+  }
+}
