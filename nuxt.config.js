@@ -49,7 +49,9 @@ export default {
       lang: 'en'
     }
   },
-
+  server: {
+    host: '172.16.5.20'
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
